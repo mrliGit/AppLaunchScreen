@@ -16,6 +16,7 @@
 		A37165AB24483BF000B05468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A37165AA24483BF000B05468 /* main.m */; };
 		A37165B524483BF100B05468 /* AppLaunchScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A37165B424483BF100B05468 /* AppLaunchScreenTests.m */; };
 		A37165C024483BF100B05468 /* AppLaunchScreenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A37165BF24483BF100B05468 /* AppLaunchScreenUITests.m */; };
+		A37D3E1824495C5E00A93E40 /* UIApplication+LaunchScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A37D3E1724495C5E00A93E40 /* UIApplication+LaunchScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A37165BB24483BF100B05468 /* AppLaunchScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppLaunchScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37165BF24483BF100B05468 /* AppLaunchScreenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppLaunchScreenUITests.m; sourceTree = "<group>"; };
 		A37165C124483BF100B05468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37D3E1624495C5D00A93E40 /* UIApplication+LaunchScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LaunchScreen.h"; sourceTree = "<group>"; };
+		A37D3E1724495C5E00A93E40 /* UIApplication+LaunchScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LaunchScreen.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 			children = (
 				A371659824483BEF00B05468 /* AppDelegate.h */,
 				A371659924483BEF00B05468 /* AppDelegate.m */,
+				A37D3E1624495C5D00A93E40 /* UIApplication+LaunchScreen.h */,
+				A37D3E1724495C5E00A93E40 /* UIApplication+LaunchScreen.m */,
 				A371659B24483BEF00B05468 /* SceneDelegate.h */,
 				A371659C24483BEF00B05468 /* SceneDelegate.m */,
 				A371659E24483BEF00B05468 /* ViewController.h */,
@@ -269,6 +274,7 @@
 			files = (
 				A37165A024483BEF00B05468 /* ViewController.m in Sources */,
 				A371659A24483BEF00B05468 /* AppDelegate.m in Sources */,
+				A37D3E1824495C5E00A93E40 /* UIApplication+LaunchScreen.m in Sources */,
 				A37165AB24483BF000B05468 /* main.m in Sources */,
 				A371659D24483BEF00B05468 /* SceneDelegate.m in Sources */,
 			);

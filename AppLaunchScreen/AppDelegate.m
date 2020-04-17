@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UIApplication+LaunchScreen.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //更换LaunchScreen启动页的时候使用
+    [[UIApplication sharedApplication] clearLaunchScreenCache];
     return YES;
 }
 
